@@ -1,3 +1,6 @@
+## Extract Data for the days 1 & 2 Feb 2007
+
+feb07 <- pwr_cons[pwr_cons$Date == "1/2/2007" | pwr_cons$Date == "2/2/2007", ]
 
 ## load lubirdate library for date functions
 library(lubridate)
